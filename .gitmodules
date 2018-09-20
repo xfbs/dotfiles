@@ -1,3 +1,12 @@
 [submodule "tmux-srcery"]
 	path = tmux/.tmux/themes/tmux-srcery
 	url = https://github.com/MindTooth/tmux-srcery/
+[submodule "vim-sensible"]
+	path = vim/.vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+[submodule "srcery-vim"]
+	path = vim/.vim/bundle/srcery-vim
+	url = https://github.com/srcery-colors/srcery-vim
+[submodule "swift.vim"]
+	path = vim/.vim/bundle/swift.vim
+	url = https://github.com/keith/swift.vim
