@@ -6,17 +6,10 @@ These are my dotfiles. These configurations are what I use on a daily basis. I k
 
 This repository is divided up into *modules*. Each module contains dotfiles (and folders) that relate to it. That way, you can choose which dotfiles you like.
 
-*   tmux/
-    *   [.tmux.conf](tmux/.tmux.conf)
-    *   .tmux/
-        *   themes/
-            *   tmux-
-*   vim/
-    *   [.vimrc](vim/.vimrc)
-    *   .vim/
-        *   bundle/
-            *   vim-sensible
-            *   vim-rust
+*   tmux/[.tmux.conf](tmux/.tmux.conf)
+*   tmux/.tmux/themes/tmux-srcry
+*   vim/[.vimrc](vim/.vimrc)
+*   vim/.vim/bundle/vim-sensible
 *   …
 
 Each of these modules is self-contained, they don't depend on each other in any way. Feel free to read some of them, they are quite simple.
