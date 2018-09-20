@@ -2,6 +2,18 @@
 
 These are my dotfiles. 
 
+## Structure
+
+*   tmux/
+    *   [.tmux.conf](tmux/.tmux.conf)
+    *   .tmux/
+        *   themes/
+            *   tmux-
+*   vim/
+    *   bundle/
+        *   vim-pathogen/
+*   &dots;
+
 ## Usage
 
 *   Install `stow`. Your package manager will do this for you.
