@@ -1,0 +1,3 @@
+[submodule "tmux-srcery"]
+	path = tmux/.tmux/themes/tmux-srcery
+	url = https://github.com/MindTooth/tmux-srcery/
