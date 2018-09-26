@@ -10,3 +10,6 @@
 [submodule "swift.vim"]
 	path = vim/.vim/bundle/swift.vim
 	url = https://github.com/keith/swift.vim
+[submodule "vim/.vim/bundle/rust.vim"]
+	path = vim/.vim/bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim
