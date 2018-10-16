@@ -17,7 +17,7 @@ set linebreak
 set scrolloff=3
 
 " enable syntax highlighting in markdown code blocks.
-let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'rust', 'ruby']
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'rust', 'ruby', 'css', 'xml']
 
 " hide some syntax chars
 set conceallevel=3
