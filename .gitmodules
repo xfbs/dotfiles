@@ -1,5 +1,5 @@
 [submodule "tmux-srcery"]
-	path = tmux/.tmux/themes/tmux-srcery
+	path = tmux/.config/tmux/tmux-srcery
 	url = https://github.com/MindTooth/tmux-srcery/
 [submodule "vim-sensible"]
 	path = vim/.vim/bundle/vim-sensible
@@ -14,8 +14,8 @@
 	path = vim/.vim/bundle/rust.vim
 	url = https://github.com/rust-lang/rust.vim
 [submodule "tmux/.tmux/tmux-prefix-highlight"]
-	path = tmux/.tmux/tmux-prefix-highlight
+	path = tmux/.config/tmux/tmux-prefix-highlight
 	url = https://github.com/tmux-plugins/tmux-prefix-highlight
 [submodule "tmux/.tmux/tmux-sensible"]
-	path = tmux/.tmux/tmux-sensible
+	path = tmux/.config/tmux/tmux-sensible
 	url = https://github.com/tmux-plugins/tmux-sensible
