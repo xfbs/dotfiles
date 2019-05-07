@@ -16,3 +16,6 @@
 [submodule "tmux/.tmux/tmux-prefix-highlight"]
 	path = tmux/.tmux/tmux-prefix-highlight
 	url = https://github.com/tmux-plugins/tmux-prefix-highlight
+[submodule "tmux/.tmux/tmux-sensible"]
+	path = tmux/.tmux/tmux-sensible
+	url = https://github.com/tmux-plugins/tmux-sensible
