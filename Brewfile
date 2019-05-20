@@ -27,6 +27,7 @@ brew "make"
 brew "gradle"
 brew "checkstyle"
 brew "google-java-format"
+brew "cabal-install"
 
 # libraries
 brew "zlib"
@@ -51,6 +52,7 @@ brew "ffmpeg"
 brew "imagemagick"
 brew "irssi"
 brew "qemu"
+brew "pandoc"
 
 # tools (vpn)
 brew "openconnect"
