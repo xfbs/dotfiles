@@ -2,7 +2,7 @@
 	path = tmux/.config/tmux/tmux-srcery
 	url = https://github.com/MindTooth/tmux-srcery/
 [submodule "vim-sensible"]
-	path = vim/.vim/pack/default/opt/sensible
+	path = vim/.vim/pack/default/start/sensible
 	url = https://github.com/tpope/vim-sensible.git
 [submodule "srcery-vim"]
 	path = vim/.vim/pack/default/opt/srcery

@@ -1,5 +1,4 @@
 " load plugins
-packadd sensible
 packadd srcery
 packadd rust
 packadd swift
