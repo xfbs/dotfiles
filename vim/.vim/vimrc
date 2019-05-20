@@ -1,5 +1,4 @@
 " load plugins
-packadd srcery
 packadd rust
 packadd swift
 packadd syntastic
