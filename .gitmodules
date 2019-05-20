@@ -23,7 +23,7 @@
 	path = vim/.vim/pack/default/opt/syntastic
 	url = https://github.com/vim-syntastic/syntastic
 [submodule "neovim/.config/nvim/pack/default/start/srcery"]
-	path = neovim/.config/nvim/pack/default/start/srcery
+	path = neovim/.config/nvim/pack/default/opt/srcery
 	url = https://github.com/srcery-colors/srcery-vim
 [submodule "neovim/.config/nvim/pack/default/start/sensible"]
 	path = neovim/.config/nvim/pack/default/start/sensible
