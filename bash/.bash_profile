@@ -3,7 +3,18 @@
 # enable bash completion.
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
+# set language
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+# enable colorful ls
 alias ls="ls -G"
+
+# set path
+if [ -d "/usr/local/opt/ruby/bin" ]; then
+  export PATH="/usr/local/opt/ruby/bin:$PATH"
+fi
+
+if [ -d "$HOME/.cargo/bin" ]; then
+  export PATH="$HOME/.cargo/bin:$PATH"
+fi
