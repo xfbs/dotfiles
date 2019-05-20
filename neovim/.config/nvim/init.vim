@@ -1,3 +1,6 @@
+" load plugins
+packadd ctrlp
+
 " proper colorscheme
 set termguicolors
 colorscheme srcery
