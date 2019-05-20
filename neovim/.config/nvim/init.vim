@@ -1,3 +1,5 @@
+" proper colorscheme
+set termguicolors
 colorscheme srcery
 
 " tabs/spaces setup
