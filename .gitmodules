@@ -28,3 +28,6 @@
 [submodule "neovim/.config/nvim/pack/default/start/sensible"]
 	path = neovim/.config/nvim/pack/default/start/sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "vim/.vim/pack/default/opt/ctrlp"]
+	path = vim/.vim/pack/default/opt/ctrlp
+	url = https://github.com/ctrlpvim/ctrlp.vim

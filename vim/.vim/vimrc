@@ -2,6 +2,7 @@
 packadd rust
 packadd swift
 packadd syntastic
+packadd ctrlp
 
 " colorscheme
 colorscheme srcery
