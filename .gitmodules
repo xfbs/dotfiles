@@ -25,3 +25,6 @@
 [submodule "neovim/.config/nvim/pack/default/start/srcery"]
 	path = neovim/.config/nvim/pack/default/start/srcery
 	url = https://github.com/srcery-colors/srcery-vim
+[submodule "neovim/.config/nvim/pack/default/start/sensible"]
+	path = neovim/.config/nvim/pack/default/start/sensible
+	url = https://github.com/tpope/vim-sensible.git
