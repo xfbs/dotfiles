@@ -7,7 +7,6 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 # languages
-brew "llvm"
 brew "python3"
 cask "java"
 brew "ruby"
