@@ -22,3 +22,6 @@
 [submodule "vim/.vim/bundle/syntastic"]
 	path = vim/.vim/bundle/syntastic
 	url = https://github.com/vim-syntastic/syntastic
+[submodule "neovim/.config/nvim/pack/default/start/srcery"]
+	path = neovim/.config/nvim/pack/default/start/srcery
+	url = https://github.com/srcery-colors/srcery-vim
