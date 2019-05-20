@@ -24,4 +24,3 @@ set conceallevel=3
 
 " highlight words as you're searching for them.
 set hlsearch
-
