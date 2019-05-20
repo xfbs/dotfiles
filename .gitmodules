@@ -2,16 +2,16 @@
 	path = tmux/.config/tmux/tmux-srcery
 	url = https://github.com/MindTooth/tmux-srcery/
 [submodule "vim-sensible"]
-	path = vim/.vim/bundle/vim-sensible
+	path = vim/.vim/pack/default/start/sensible
 	url = https://github.com/tpope/vim-sensible.git
 [submodule "srcery-vim"]
-	path = vim/.vim/bundle/srcery-vim
+	path = vim/.vim/pack/default/start/srcery
 	url = https://github.com/srcery-colors/srcery-vim
 [submodule "swift.vim"]
-	path = vim/.vim/bundle/swift.vim
+	path = vim/.vim/pack/default/start/swift
 	url = https://github.com/keith/swift.vim
 [submodule "vim/.vim/bundle/rust.vim"]
-	path = vim/.vim/bundle/rust.vim
+	path = vim/.vim/pack/default/start/rust
 	url = https://github.com/rust-lang/rust.vim
 [submodule "tmux/.tmux/tmux-prefix-highlight"]
 	path = tmux/.config/tmux/tmux-prefix-highlight
@@ -20,7 +20,7 @@
 	path = tmux/.config/tmux/tmux-sensible
 	url = https://github.com/tmux-plugins/tmux-sensible
 [submodule "vim/.vim/bundle/syntastic"]
-	path = vim/.vim/bundle/syntastic
+	path = vim/.vim/pack/default/start/syntastic
 	url = https://github.com/vim-syntastic/syntastic
 [submodule "neovim/.config/nvim/pack/default/start/srcery"]
 	path = neovim/.config/nvim/pack/default/start/srcery
