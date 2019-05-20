@@ -4,6 +4,14 @@ These are my dotfiles. These configurations are what I use on a daily basis. I k
 
 My goal is to keep these as simple as possible.
 
+## Install Packages
+
+If you are on macOS, you can simply run
+
+    brew bundle
+
+To install all packages. This might be a lot of packages, and not necessarily ones that are useful to you.
+
 ## Structure
 
 All of these modules is self-contained, they don't depend on each other in any way. Feel free to read some of them, they are quite simple.

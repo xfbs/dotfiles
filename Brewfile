@@ -1,60 +1,71 @@
+# xfbs' brewfile. this file can be used to install a bunch of tools by running
+# `brew bundle` in the directory that this file is located in.
+
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
-brew "cairo"
-brew "aria2"
+
+# languages
+brew "llvm"
 brew "python3"
-brew "htop"
-brew "asciinema"
+cask "java"
+brew "ruby"
+brew "node"
+brew "ghc"
+brew "rustup-init"
+
+# tools (dev)
 brew "autoconf"
 brew "automake"
-brew "bash-completion"
-brew "checkstyle"
-brew "cloc"
 brew "cmake"
 brew "coreutils"
-brew "cryptopp"
-brew "ghostscript", link: false
-brew "exif"
-brew "exiftool"
-brew "expat"
-brew "ffmpeg"
-brew "ghc"
+brew "htop"
+brew "cloc"
 brew "git"
-brew "gtk+3"
-brew "google-java-format"
+brew "meson"
+brew "make"
 brew "gradle"
+brew "checkstyle"
+brew "google-java-format"
+
+# libraries
+brew "zlib"
+brew "cairo"
+brew "expat"
+brew "gtk+3"
+brew "libressl"
+
+# tools (network)
+brew "aria2"
+brew "telnet"
+brew "nmap"
+brew "wget"
+brew "magic-wormhole"
+
+# tools (misc)
+brew "stow"
+brew "tree"
+brew "bash-completion"
+brew "tmux"
+brew "ffmpeg"
 brew "imagemagick"
 brew "irssi"
-brew "lean"
-brew "libressl"
-brew "magic-wormhole"
-brew "meson"
-brew "neovim"
-brew "nmap"
-brew "node"
-brew "octave"
+brew "qemu"
+
+# tools (vpn)
 brew "openconnect"
 brew "openvpn"
-brew "optipng"
-brew "pdfcrack"
-brew "pngcrush"
-brew "pngquant"
-brew "postgresql"
-brew "qemu"
-brew "ruby"
-brew "rustup-init"
-brew "stow"
-brew "telnet"
-brew "tmux"
-brew "tree"
+
+# editors
 brew "vim"
-brew "wget"
-brew "yarn"
-brew "zlib"
+brew "neovim"
+
+# database
+brew "postgresql"
+
+# apps
 cask "firefox"
 cask "alacritty"
 cask "osxfuse"
 cask "transmission"
-cask "java"
