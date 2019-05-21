@@ -6,9 +6,13 @@
 # set language
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+export EDITOR=nvim
 
 # enable colorful ls
 alias ls="ls -G"
+
+# use neovim by default
+alias vim="nvim"
 
 # set path
 if [ -d "/usr/local/opt/ruby/bin" ]; then
