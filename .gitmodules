@@ -37,3 +37,6 @@
 [submodule "neovim/.config/nvim/pack/default/opt/gruvbox"]
 	path = neovim/.config/nvim/pack/default/opt/gruvbox
 	url = https://github.com/morhetz/gruvbox
+[submodule "neovim/.config/nvim/pack/default/opt/rust"]
+	path = neovim/.config/nvim/pack/default/opt/rust
+	url = https://github.com/rust-lang/rust.vim

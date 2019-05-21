@@ -1,5 +1,6 @@
 " load plugins
 packadd ctrlp
+packadd rust
 
 " proper colorscheme
 set termguicolors
