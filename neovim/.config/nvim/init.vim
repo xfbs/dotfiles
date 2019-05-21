@@ -3,8 +3,7 @@ packadd ctrlp
 packadd rust
 
 " proper colorscheme
-set termguicolors
-colorscheme gruvbox
+colorscheme srcery
 
 " tabs/spaces setup
 set tabstop=4
