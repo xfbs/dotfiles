@@ -34,3 +34,6 @@
 [submodule "neovim/.config/nvim/pack/default/opt/ctrlp"]
 	path = neovim/.config/nvim/pack/default/opt/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "neovim/.config/nvim/pack/default/opt/gruvbox"]
+	path = neovim/.config/nvim/pack/default/opt/gruvbox
+	url = https://github.com/morhetz/gruvbox
