@@ -13,6 +13,7 @@ brew "ruby"
 brew "node"
 brew "ghc"
 brew "rustup-init"
+brew "crystal"
 
 # tools (dev)
 brew "autoconf"
@@ -28,6 +29,8 @@ brew "gradle"
 brew "checkstyle"
 brew "google-java-format"
 brew "cabal-install"
+brew "fswatch"
+brew "binwalk"
 
 # libraries
 brew "zlib"
