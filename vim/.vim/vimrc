@@ -3,6 +3,7 @@ packadd rust
 packadd swift
 packadd syntastic
 packadd ctrlp
+packadd better-whitespace
 
 " colorscheme
 colorscheme srcery

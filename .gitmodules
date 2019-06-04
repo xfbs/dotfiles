@@ -40,3 +40,6 @@
 [submodule "neovim/.config/nvim/pack/default/opt/rust"]
 	path = neovim/.config/nvim/pack/default/opt/rust
 	url = https://github.com/rust-lang/rust.vim
+[submodule "vim/.vim/pack/default/opt/better-whitespace"]
+	path = vim/.vim/pack/default/opt/better-whitespace
+	url = https://github.com/ntpeters/vim-better-whitespace
