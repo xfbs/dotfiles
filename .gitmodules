@@ -43,3 +43,6 @@
 [submodule "vim/.vim/pack/default/opt/better-whitespace"]
 	path = vim/.vim/pack/default/opt/better-whitespace
 	url = https://github.com/ntpeters/vim-better-whitespace
+[submodule "neovim/.config/nvim/pack/default/opt/better-whitespace"]
+	path = neovim/.config/nvim/pack/default/opt/better-whitespace
+	url = https://github.com/ntpeters/vim-better-whitespace

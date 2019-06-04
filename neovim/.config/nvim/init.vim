@@ -1,6 +1,7 @@
 " load plugins
 packadd ctrlp
 packadd rust
+packadd better-whitespace
 
 " proper colorscheme
 colorscheme srcery
