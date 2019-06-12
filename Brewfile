@@ -7,13 +7,13 @@ tap "homebrew/core"
 tap "homebrew/services"
 
 # languages
-brew "llvm"
 brew "python3"
 cask "java"
 brew "ruby"
 brew "node"
 brew "ghc"
 brew "rustup-init"
+brew "crystal"
 
 # tools (dev)
 brew "autoconf"
@@ -28,6 +28,9 @@ brew "make"
 brew "gradle"
 brew "checkstyle"
 brew "google-java-format"
+brew "cabal-install"
+brew "fswatch"
+brew "binwalk"
 
 # libraries
 brew "zlib"
@@ -52,6 +55,7 @@ brew "ffmpeg"
 brew "imagemagick"
 brew "irssi"
 brew "qemu"
+brew "pandoc"
 
 # tools (vpn)
 brew "openconnect"

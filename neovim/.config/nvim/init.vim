@@ -1,5 +1,9 @@
+" load plugins
+packadd ctrlp
+packadd rust
+packadd better-whitespace
+
 " proper colorscheme
-set termguicolors
 colorscheme srcery
 
 " tabs/spaces setup
@@ -20,3 +24,6 @@ set conceallevel=3
 
 " highlight words as you're searching for them.
 set hlsearch
+
+" exit terminal mode with escape
+tmap <esc> <c-\><c-n>

@@ -1,4 +1,9 @@
-execute pathogen#infect()
+" load plugins
+packadd rust
+packadd swift
+packadd syntastic
+packadd ctrlp
+packadd better-whitespace
 
 " colorscheme
 colorscheme srcery
@@ -24,3 +29,6 @@ set conceallevel=3
 
 " highlight words as you're searching for them.
 set hlsearch
+
+" disable swap file creation
+set noswapfile
