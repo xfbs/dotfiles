@@ -6,3 +6,4 @@ export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
 export EDITOR=nvim
 
 alias ls="ls --color"
+alias open="xdg-open"
