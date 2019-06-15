@@ -1,9 +1,10 @@
 " load plugins
 packadd rust
 packadd swift
-packadd syntastic
+"packadd syntastic
 packadd ctrlp
 packadd better-whitespace
+packadd vala
 
 " colorscheme
 colorscheme srcery
