@@ -26,7 +26,7 @@ if [ -d "$HOME/.local/bin" ]; then
 fi
 
 # use neovim if it's available, otherwise default to vim.
-if command -v nvim; then
+if command -v nvim > /dev/null; then
   export EDITOR=nvim
 else
   export EDITOR=vim
