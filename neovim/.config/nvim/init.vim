@@ -2,6 +2,7 @@
 packadd ctrlp
 packadd rust
 packadd better-whitespace
+packadd editorconfig
 
 " proper colorscheme
 colorscheme srcery
