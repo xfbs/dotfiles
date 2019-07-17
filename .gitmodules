@@ -52,3 +52,6 @@
 [submodule "neovim/.config/nvim/pack/default/opt/editorconfig"]
 	path = neovim/.config/nvim/pack/default/opt/editorconfig
 	url = https://github.com/sgur/vim-editorconfig
+[submodule "vim/.vim/pack/default/opt/editorconfig"]
+	path = vim/.vim/pack/default/opt/editorconfig
+	url = https://github.com/sgur/vim-editorconfig
