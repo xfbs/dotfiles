@@ -3,6 +3,7 @@ packadd ctrlp
 packadd rust
 packadd better-whitespace
 packadd editorconfig
+packadd meson
 
 " proper colorscheme
 colorscheme srcery

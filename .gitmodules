@@ -55,3 +55,9 @@
 [submodule "vim/.vim/pack/default/opt/editorconfig"]
 	path = vim/.vim/pack/default/opt/editorconfig
 	url = https://github.com/sgur/vim-editorconfig
+[submodule "neovim/.config/nvim/pack/default/opt/meson"]
+	path = neovim/.config/nvim/pack/default/opt/meson
+	url = https://github.com/matze/vim-meson
+[submodule "neovim/.vim/pack/default/opt/meson"]
+	path = neovim/.vim/pack/default/opt/meson
+	url = https://github.com/matze/vim-meson

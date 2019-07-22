@@ -6,6 +6,7 @@ packadd ctrlp
 packadd better-whitespace
 packadd vala
 packadd editorconfig
+packadd meson
 
 " colorscheme
 colorscheme srcery
