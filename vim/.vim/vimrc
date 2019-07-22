@@ -5,6 +5,7 @@ packadd swift
 packadd ctrlp
 packadd better-whitespace
 packadd vala
+packadd editorconfig
 
 " colorscheme
 colorscheme srcery
