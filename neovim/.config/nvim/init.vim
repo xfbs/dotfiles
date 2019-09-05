@@ -24,7 +24,7 @@ let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'rust', 'ruby', 
 set scrolloff=3
 
 " hide some syntax chars
-set conceallevel=3
+set conceallevel=2
 
 " highlight words as you're searching for them.
 set hlsearch
