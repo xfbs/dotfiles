@@ -61,3 +61,6 @@
 [submodule "neovim/.vim/pack/default/opt/meson"]
 	path = neovim/.vim/pack/default/opt/meson
 	url = https://github.com/matze/vim-meson
+[submodule "vim/.vim/pack/default/opt/meson"]
+	path = vim/.vim/pack/default/opt/meson
+	url = https://github.com/matze/vim-meson
