@@ -10,13 +10,15 @@ colorscheme srcery
 
 " tabs/spaces setup
 set tabstop=4
-set shiftwidth=2
+set shiftwidth=4
 set expandtab
 set smarttab
 
 " wrap long lines
 set wrap
 set linebreak
+
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'rust', 'ruby', 'css', 'xml', 'c']
 
 " keep three lines above/below cursor when scrolling
 set scrolloff=3
