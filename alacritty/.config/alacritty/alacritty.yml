@@ -3,17 +3,13 @@ window:
     columns: 0
     lines: 0
   padding:
-    x: 2
-    y: 2
-  dynamic_padding: false
+    x: 5
+    y: 5
+  dynamic_padding: true
   decorations: full
-  start_maximized: false
 scrolling:
   history: 10000
   multiplier: 3
-  faux_multiplier: 3
-  auto_scroll: false
-tabspaces: 8
 font:
   normal:
     family: SF Mono
@@ -23,7 +19,7 @@ font:
     style: Bold
   italic:
     family: SF Mono
-    style: Italic
+    style: Light Italic
   size: 12.0
   offset:
     x: 0
@@ -32,8 +28,6 @@ font:
     x: 0
     y: 0
   use_thin_strokes: true
-render_timer: false
-persistent_logging: false
 draw_bold_text_with_bright_colors: true
 colors:
   primary:
@@ -58,10 +52,10 @@ colors:
     cyan:    '0x53FDE9'
     white:   '0xFCE8C3'
   indexed_colors: []
-visual_bell:
-  animation: Ease
-  duration: 250
-  color: '0x918175'
+#visual_bell:
+#  animation: Ease
+#  duration: 100
+#  color: '0x918175'
 background_opacity: 1.0
 mouse_bindings:
   - { mouse: Middle, action: PasteSelection }
