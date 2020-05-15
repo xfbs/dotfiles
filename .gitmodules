@@ -61,3 +61,6 @@
 [submodule "vim/.vim/pack/default/opt/meson"]
 	path = vim/.vim/pack/default/opt/meson
 	url = https://github.com/matze/vim-meson
+[submodule "tmux/.config/tmux/tmux-battery"]
+	path = tmux/.config/tmux/tmux-battery
+	url = https://github.com/tmux-plugins/tmux-battery
