@@ -22,3 +22,4 @@ fi
 if [ -d "$HOME/.cargo/bin" ]; then
   export PATH="$HOME/.cargo/bin:$PATH"
 fi
+if [ -e /Users/pelsen/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/pelsen/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
