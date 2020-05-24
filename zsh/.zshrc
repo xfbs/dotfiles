@@ -9,3 +9,13 @@ if type brew &>/dev/null; then
     autoload -Uz compinit
     compinit
 fi
+
+if test -d "$HOME/.cargo/bin"; then
+    export PATH="$PATH:$HOME/.cargo/bin"
+fi
+
+if test -d "/usr/local/opt/ruby/bin"; then
+    export PATH="/usr/local/opt/ruby/bin:$PATH"
+fi
+
+alias ls="ls -G"
