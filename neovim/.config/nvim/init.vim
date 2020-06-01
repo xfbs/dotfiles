@@ -4,6 +4,7 @@ packadd rust
 packadd better-whitespace
 packadd editorconfig
 packadd meson
+packadd base16-vim
 
 " proper colorscheme
 colorscheme srcery
