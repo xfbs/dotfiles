@@ -10,7 +10,12 @@ packadd meson
 packadd base16-vim
 
 " colorscheme
-colorscheme srcery
+if filereadable(expand("~/.vimrc_background"))
+  " let base16colorspace=256
+  source ~/.vimrc_background
+else
+  colorscheme srcery
+endif
 
 " tabs/spaces setup
 set tabstop=4
