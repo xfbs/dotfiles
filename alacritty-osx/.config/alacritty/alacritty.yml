@@ -28,6 +28,7 @@ font:
     x: 0
     y: 0
   use_thin_strokes: true
+# color_start
 draw_bold_text_with_bright_colors: true
 colors:
   primary:
@@ -52,6 +53,7 @@ colors:
     cyan:    '0x53FDE9'
     white:   '0xFCE8C3'
   indexed_colors: []
+# color_end
 #visual_bell:
 #  animation: Ease
 #  duration: 100
