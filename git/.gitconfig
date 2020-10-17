@@ -1,14 +1,5 @@
 [user]
 	name = Patrick Elsen
 	email = pelsen@xfbs.net
-[git-bug "auth.e07fa83a5a4366b35b6fca1f6907a5f2cd4508484be67392197238e61cd4bb49"]
-	kind = token
-	target = gitlab
-	createtime = 1590335847
-	salt = EDXPCcKJx1M50n6onJMJMA==
-	value = eUz_sKpkoijU4zDdfNam
-[git-bug "auth.e07fa83a5a4366b35b6fca1f6907a5f2cd4508484be67392197238e61cd4bb49.meta"]
-	login = xfbs
-	base-url = https://gitlab.com/
 [core]
 	excludesfile = /Users/pelsen/.gitignore
