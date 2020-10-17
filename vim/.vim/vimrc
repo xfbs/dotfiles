@@ -41,3 +41,6 @@ set hlsearch
 
 " disable swap file creation
 set noswapfile
+
+" enable spellcheck
+set spell
