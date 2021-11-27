@@ -12,13 +12,13 @@ scrolling:
   multiplier: 3
 font:
   normal:
-    family: SF Mono
-    style: Light
+    family: Menlo
+    style: Regular
   bold:
-    family: SF Mono
+    family: Menlo
     style: Bold
   italic:
-    family: SF Mono
+    family: Menlo
     style: Light Italic
   size: 11.0
   offset:
@@ -29,48 +29,36 @@ font:
     y: 0
   use_thin_strokes: true
 draw_bold_text_with_bright_colors: true
+# Colors (Srcery)
 colors:
+  # Default colors
   primary:
-    background: '0x1C1B19'
-    foreground: '0xFCE8C3'
+    background: '#1c1b19'
+    foreground: '#fce8c3'
+
+  # Cursor colors
+  cursor:
+    text: CellBackground
+    cursor: '#fbb829'
+
+  # Normal colors
   normal:
-    black:   '0x1C1B19'
-    red:     '0xEF2F27'
-    green:   '0x519F50'
-    yellow:  '0xFBB829'
-    blue:    '0x2C78BF'
-    magenta: '0xE02C6D'
-    cyan:    '0x0AAEB3'
-    white:   '0x918175'
+    black:   '#1c1b19'
+    red:     '#ef2f27'
+    green:   '#519f50'
+    yellow:  '#fbb829'
+    blue:    '#2c78bf'
+    magenta: '#e02c6d'
+    cyan:    '#0aaeb3'
+    white:   '#baa67f'
+
+  # Bright colors
   bright:
-    black:   '0x2D2B28'
-    red:     '0xF75341'
-    green:   '0x98BC37'
-    yellow:  '0xFED06E'
-    blue:    '0x529CE0'
-    magenta: '0xFF5C8F'
-    cyan:    '0x53FDE9'
-    white:   '0xFCE8C3'
-  indexed_colors: []
-#visual_bell:
-#  animation: Ease
-#  duration: 100
-#  color: '0x918175'
-background_opacity: 1.0
-mouse_bindings:
-  - { mouse: Middle, action: PasteSelection }
-mouse:
-  double_click: { threshold: 300 }
-  triple_click: { threshold: 300 }
-  hide_when_typing: true
-  url:
-    modifiers: None
-selection:
-  semantic_escape_chars: ",│`|:\"' ()[]{}<>"
-  save_to_clipboard: false
-dynamic_title: true
-cursor:
-  style: Block
-  unfocused_hollow: true
-live_config_reload: true
-alt_send_esc: true
+    black:   '#918175'
+    red:     '#f75341'
+    green:   '#98bc37'
+    yellow:  '#fed06e'
+    blue:    '#68a8e4'
+    magenta: '#ff5c8f'
+    cyan:    '#2be4d0'
+    white:   '#fce8c3'
