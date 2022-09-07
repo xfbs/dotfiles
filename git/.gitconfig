@@ -3,3 +3,9 @@
 	email = pelsen@xfbs.net
 [core]
 	excludesfile = /Users/pelsen/.gitignore
+[pull]
+	rebase = true
+[init]
+	defaultBranch = master
+[url "ssh://git@gitlab.com"]
+	insteadOf = https://gitlab.com
