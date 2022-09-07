@@ -22,54 +22,6 @@
 [submodule "vim/.vim/bundle/syntastic"]
 	path = vim/.vim/pack/default/opt/syntastic
 	url = https://github.com/vim-syntastic/syntastic
-[submodule "neovim/.config/nvim/pack/default/start/srcery"]
-	path = neovim/.config/nvim/pack/default/opt/srcery
-	url = https://github.com/srcery-colors/srcery-vim
-[submodule "neovim/.config/nvim/pack/default/start/sensible"]
-	path = neovim/.config/nvim/pack/default/start/sensible
-	url = https://github.com/tpope/vim-sensible.git
-[submodule "vim/.vim/pack/default/opt/ctrlp"]
-	path = vim/.vim/pack/default/opt/ctrlp
-	url = https://github.com/ctrlpvim/ctrlp.vim
-[submodule "neovim/.config/nvim/pack/default/opt/ctrlp"]
-	path = neovim/.config/nvim/pack/default/opt/ctrlp
-	url = https://github.com/ctrlpvim/ctrlp.vim
-[submodule "neovim/.config/nvim/pack/default/opt/gruvbox"]
-	path = neovim/.config/nvim/pack/default/opt/gruvbox
-	url = https://github.com/morhetz/gruvbox
-[submodule "neovim/.config/nvim/pack/default/opt/rust"]
-	path = neovim/.config/nvim/pack/default/opt/rust
-	url = https://github.com/rust-lang/rust.vim
-[submodule "vim/.vim/pack/default/opt/better-whitespace"]
-	path = vim/.vim/pack/default/opt/better-whitespace
-	url = https://github.com/ntpeters/vim-better-whitespace
-[submodule "neovim/.config/nvim/pack/default/opt/better-whitespace"]
-	path = neovim/.config/nvim/pack/default/opt/better-whitespace
-	url = https://github.com/ntpeters/vim-better-whitespace
-[submodule "vim/.vim/pack/default/opt/vala"]
-	path = vim/.vim/pack/default/opt/vala
-	url = https://github.com/arrufat/vala.vim
-[submodule "neovim/.config/nvim/pack/default/opt/editorconfig"]
-	path = neovim/.config/nvim/pack/default/opt/editorconfig
-	url = https://github.com/sgur/vim-editorconfig
-[submodule "vim/.vim/pack/default/opt/editorconfig"]
-	path = vim/.vim/pack/default/opt/editorconfig
-	url = https://github.com/sgur/vim-editorconfig
-[submodule "neovim/.config/nvim/pack/default/opt/meson"]
-	path = neovim/.config/nvim/pack/default/opt/meson
-	url = https://github.com/matze/vim-meson
-[submodule "vim/.vim/pack/default/opt/meson"]
-	path = vim/.vim/pack/default/opt/meson
-	url = https://github.com/matze/vim-meson
-[submodule "tmux/.config/tmux/tmux-battery"]
-	path = tmux/.config/tmux/tmux-battery
-	url = https://github.com/tmux-plugins/tmux-battery
-[submodule "vim/.vim/pack/default/opt/base16-vim"]
-	path = vim/.vim/pack/default/opt/base16-vim
-	url = https://github.com/chriskempson/base16-vim
-[submodule "neovim/.config/nvim/pack/default/opt/base16-vim"]
-	path = neovim/.config/nvim/pack/default/opt/base16-vim
-	url = https://github.com/chriskempson/base16-vim
 [submodule "alacritty-osx/.config/alacritty/base16-alacritty"]
 	path = alacritty-osx/.config/alacritty/base16-alacritty
 	url = https://github.com/aaron-williamson/base16-alacritty
