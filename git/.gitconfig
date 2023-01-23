@@ -1,6 +1,7 @@
 [user]
 	name = Patrick Elsen
 	email = pelsen@xfbs.net
+	signingkey = /home/patrick/.ssh/id_ed25519
 [core]
 	excludesfile = /Users/pelsen/.gitignore
 [pull]
