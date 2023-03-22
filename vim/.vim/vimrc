@@ -8,6 +8,7 @@ packadd vala
 packadd editorconfig
 packadd meson
 packadd base16-vim
+packadd kotlin-vim
 
 " colorscheme
 if filereadable(expand("~/.vimrc_background"))
