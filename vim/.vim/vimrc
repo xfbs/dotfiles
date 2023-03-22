@@ -6,8 +6,8 @@ packadd better-whitespace
 packadd vala
 packadd editorconfig
 packadd meson
-packadd base16-vim
 packadd kotlin-vim
+packadd srcery
 
 colorscheme srcery
 
