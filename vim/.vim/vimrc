@@ -1,7 +1,6 @@
 " load plugins
 packadd rust
 packadd swift
-"packadd syntastic
 packadd ctrlp
 packadd better-whitespace
 packadd vala
@@ -10,13 +9,10 @@ packadd meson
 packadd base16-vim
 packadd kotlin-vim
 
-" colorscheme
-if filereadable(expand("~/.vimrc_background"))
-  " let base16colorspace=256
-  source ~/.vimrc_background
-else
-  colorscheme srcery
-endif
+colorscheme srcery
+
+" ctrl-p gitignore
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 " tabs/spaces setup
 set tabstop=4
