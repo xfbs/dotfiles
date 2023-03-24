@@ -43,3 +43,6 @@
 [submodule "vim/.vim/pack/default/opt/kotlin-vim"]
 	path = vim/.vim/pack/default/opt/kotlin-vim
 	url = https://github.com/udalov/kotlin-vim.git
+[submodule "vim/.vim/pack/default/opt/vim-graphql"]
+	path = vim/.vim/pack/default/opt/vim-graphql
+	url = https://github.com/jparise/vim-graphql

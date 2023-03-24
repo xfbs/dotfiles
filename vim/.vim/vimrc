@@ -8,6 +8,7 @@ packadd editorconfig
 packadd meson
 packadd kotlin-vim
 packadd srcery
+packadd vim-graphql
 
 colorscheme srcery
 
