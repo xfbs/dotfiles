@@ -9,6 +9,7 @@ packadd meson
 packadd kotlin-vim
 packadd srcery
 packadd vim-graphql
+packadd vim-jsx-pretty
 
 colorscheme srcery
 
