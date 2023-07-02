@@ -48,4 +48,4 @@
 	url = https://github.com/jparise/vim-graphql
 [submodule "vim/.vim/pack/default/opt/vim-jsx-pretty"]
 	path = vim/.vim/pack/default/opt/vim-jsx-pretty
-	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
+	url = https://github.com/MaxMEllon/vim-jsx-pretty.git
