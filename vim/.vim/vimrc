@@ -1,15 +1,15 @@
 " load plugins
 packadd rust
-packadd swift
+"packadd swift
 packadd ctrlp
 packadd better-whitespace
-packadd vala
+"packadd vala
 packadd editorconfig
-packadd meson
-packadd kotlin-vim
+"packadd meson
+"packadd kotlin-vim
 packadd srcery
-packadd vim-graphql
-packadd vim-jsx-pretty
+"packadd vim-graphql
+"packadd vim-jsx-pretty
 
 colorscheme srcery
 
@@ -17,8 +17,8 @@ colorscheme srcery
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 " tabs/spaces setup
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set smarttab
 

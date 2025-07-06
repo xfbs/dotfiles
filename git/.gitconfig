@@ -1,16 +1,17 @@
 [user]
 	name = Patrick Elsen
 	email = pelsen@xfbs.net
-	signingkey = /home/patrick/.ssh/id_ed25519
-[core]
-	excludesfile = /Users/pelsen/.gitignore
+	signingkey = /home/rick/.ssh/id_ed25519
 [pull]
 	rebase = true
 [init]
 	defaultBranch = master
-[url "ssh://git@gitlab.com"]
-	insteadOf = https://gitlab.com
 [commit]
 	gpgsign = true
 [gpg]
 	format = ssh
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
