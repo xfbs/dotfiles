@@ -1,0 +1,26 @@
+[general]
+import = [
+  "themes/srcery.toml",
+  "fonts/commitmono.toml",
+]
+
+[window]
+# bit of padding looks nicer
+padding.x = 3
+padding.y = 3
+# dark decoration looks better
+decorations_theme_variant = "Dark"
+
+# visual bell with yellow color (color taken from srcery colorscheme)
+[bell]
+animation = "EaseOutExpo"
+color = "#fed06e"
+duration = 130
+
+# adjust for screen size
+[font]
+size = 11.0
+
+[[keyboard.bindings]]
+key = "F11"
+action = "ToggleFullscreen"
