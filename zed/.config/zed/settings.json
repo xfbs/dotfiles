@@ -1,0 +1,60 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "buffer_line_height": {
+    "custom": 1.4,
+  },
+  "buffer_font_family": "CommitMono",
+  "ui_font_family": "Inter",
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry",
+    },
+  },
+  "agent": {
+    "tool_permissions": {
+      "tools": {
+        "fetch": {
+          "always_allow": [
+            {
+              "pattern": "^https?://github\\.com",
+            },
+            {
+              "pattern": "^https?://gitlab\\.gnome\\.org",
+            },
+            {
+              "pattern": "^https?://gitlab\\.freedesktop\\.org",
+            },
+            {
+              "pattern": "^https?://gitlab\\.com",
+            },
+          ],
+        },
+        "web_search": {
+          "default": "allow",
+        },
+      },
+    },
+    "default_model": {
+      "effort": "low",
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-6",
+      "enable_thinking": true,
+    },
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+}
