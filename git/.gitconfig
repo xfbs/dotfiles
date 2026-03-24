@@ -1,7 +1,7 @@
 [user]
 	name = Patrick Elsen
 	email = pelsen@xfbs.net
-	signingkey = /home/rick/.ssh/id_ed25519
+	signingkey = /home/patrick/.ssh/id_ed25519_sk
 [pull]
 	rebase = true
 [init]
