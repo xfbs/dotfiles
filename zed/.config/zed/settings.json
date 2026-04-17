@@ -47,7 +47,13 @@
       "model": "claude-sonnet-4-6",
       "enable_thinking": true,
     },
-    "favorite_models": [],
+    "favorite_models": [
+      {
+        "provider": "zed.dev",
+        "model": "claude-sonnet-4-6",
+        "enable_thinking": false
+      }
+    ],
     "model_parameters": [],
   },
   "ui_font_size": 16,
